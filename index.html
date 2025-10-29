@@ -383,7 +383,17 @@
                     </div>
                     
                     <div class="contact-form-container">
-                        <form name="contact" netlify class="contact-form">
+                        <div id="form-success-message" class="form-success-message" style="display: none;">
+                            <div class="success-content">
+                                <h3>✅ Message Sent Successfully!</h3>
+                                <p>Thank you for your submission. We'll review your message and respond if needed. Your contribution helps keep this information accurate and complete.</p>
+                                <button id="send-another" class="cta-button">Send Another Message</button>
+                            </div>
+                        </div>
+                        
+                        <form name="contact" method="POST" netlify class="contact-form" id="contact-form">
+                            <input type="hidden" name="form-name" value="contact" />
+                            
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name" required>

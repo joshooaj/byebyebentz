@@ -986,6 +986,18 @@ footer {
     .checkbox-label {
         font-size: 0.85rem;
     }
+    
+    .form-success-message {
+        padding: 2rem 1rem;
+    }
+    
+    .success-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .success-content p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1236,6 +1248,62 @@ button:focus {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid #e2e8f0;
+}
+
+/* Form Success Message */
+.form-success-message {
+    background: linear-gradient(135deg, #48bb78, #38a169);
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(72, 187, 120, 0.3);
+    animation: slideInUp 0.5s ease-out;
+}
+
+.success-content h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.success-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.success-content .cta-button {
+    background: white;
+    color: #38a169;
+    border: 2px solid white;
+    margin: 0;
+}
+
+.success-content .cta-button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #2f855a;
+    transform: translateY(-2px);
+}
+
+.submit-button:disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Print styles */

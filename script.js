@@ -290,3 +290,74 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Netlify form handling
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contact-form');
+    const successMessage = document.getElementById('form-success-message');
+    const sendAnotherButton = document.getElementById('send-another');
+    const submitButton = contactForm.querySelector('.submit-button');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', handleFormSubmit);
+    }
+    
+    if (sendAnotherButton) {
+        sendAnotherButton.addEventListener('click', function() {
+            successMessage.style.display = 'none';
+            contactForm.style.display = 'block';
+            contactForm.reset();
+            
+            // Scroll to form smoothly
+            contactForm.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start'
+            });
+        });
+    }
+    
+    function handleFormSubmit(event) {
+        event.preventDefault();
+        
+        const formData = new FormData(contactForm);
+        
+        // Update submit button to show loading state
+        const originalText = submitButton.textContent;
+        submitButton.textContent = 'Sending...';
+        submitButton.disabled = true;
+        
+        // Submit to Netlify
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData).toString()
+        })
+        .then(response => {
+            if (response.ok) {
+                // Show success message
+                contactForm.style.display = 'none';
+                successMessage.style.display = 'block';
+                
+                // Scroll to success message smoothly
+                successMessage.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'center'
+                });
+                
+                // Reset form
+                contactForm.reset();
+            } else {
+                throw new Error('Form submission failed');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('There was an error submitting your message. Please try again or email us directly at byebyebentz@madeye.dev');
+        })
+        .finally(() => {
+            // Reset submit button
+            submitButton.textContent = originalText;
+            submitButton.disabled = false;
+        });
+    }
+});

@@ -32,6 +32,12 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://byebyebentz.com/">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -48,6 +54,7 @@
                     <li><a href="#voting-record">Voting Record</a></li>
                     <li><a href="#solutions">Solutions</a></li>
                     <li><a href="#action">Take Action</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -347,6 +354,89 @@
                     <h3>2026 Republican Primary Election</h3>
                     <p>Mark your calendar: The Republican primary election will be held in <strong>May 2026</strong>. This is when we can choose new leadership for Oregon's 2nd District.</p>
                     <a href="https://sos.oregon.gov/voting/Pages/registration.aspx" target="_blank" class="register-button">Check Your Registration</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p class="section-intro">Help us keep this information accurate and complete. Share corrections, additional evidence of Bentz's failures, or information about potential primary candidates.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>How You Can Help</h3>
+                        <div class="help-options">
+                            <div class="help-option">
+                                <strong>📝 Fact Corrections</strong>
+                                <p>Found an error? We verify all claims through official sources and welcome corrections with documentation.</p>
+                            </div>
+                            <div class="help-option">
+                                <strong>📊 Additional Evidence</strong>
+                                <p>Have documentation of other ways Bentz has failed Eastern Oregon? We'll research and verify new information.</p>
+                            </div>
+                            <div class="help-option">
+                                <strong>🗳️ Primary Candidates</strong>
+                                <p>Know someone considering a primary challenge? Share their information so voters can learn about alternatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form name="contact" method="POST" netlify class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="location">Location (Optional)</label>
+                                <input type="text" id="location" name="location" placeholder="e.g., Baker City, Bend, etc.">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="purpose">Purpose of Message</label>
+                                <select id="purpose" name="purpose" required>
+                                    <option value="">Select one...</option>
+                                    <option value="correction">Fact Correction - I found an error that needs fixing</option>
+                                    <option value="new-evidence">Additional Evidence - I have more examples of Bentz's failures</option>
+                                    <option value="primary-candidate">Primary Candidate Information - I know someone considering a challenge</option>
+                                    <option value="general">General Feedback or Question</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Brief description of your message">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please provide details. For fact corrections, include sources. For new evidence, provide documentation. For candidate information, share relevant background."></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="verify" required>
+                                    <span class="checkmark"></span>
+                                    I understand this site is dedicated to factual accountability and I'm providing accurate information to the best of my knowledge.
+                                </label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="submit-button">Send Message</button>
+                            </div>
+                            
+                            <p class="form-note">
+                                <strong>Privacy:</strong> We only use your information to respond to your message and verify claims. We do not share personal information or use it for political fundraising.
+                            </p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>

@@ -38,7 +38,7 @@ body {
     height: 70px;
 }
 
-.nav-logo h2 {
+.nav-logo h1 {
     color: #fff;
     font-weight: 700;
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ body {
     margin-top: 70px;
 }
 
-.hero-content h1 {
+.hero-content h2 {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -171,7 +171,7 @@ body {
 .section-intro {
     text-align: center;
     font-size: 1.2rem;
-    color: #4a5568;
+    color: #2d3748;
     max-width: 600px;
     margin: 0 auto 3rem;
 }
@@ -224,7 +224,7 @@ body {
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #4a5568;
+    color: #2d3748;
 }
 
 .issue-card li::before {
@@ -291,7 +291,7 @@ body {
 .section-subtitle {
     text-align: center;
     font-size: 1.2rem;
-    color: #4a5568;
+    color: #2d3748;
     margin-bottom: 3rem;
     max-width: 600px;
     margin-left: auto;
@@ -362,7 +362,7 @@ body {
 }
 
 .analysis {
-    color: #4a5568;
+    color: #2d3748;
     line-height: 1.6;
 }
 
@@ -740,7 +740,7 @@ footer {
         margin: 1rem 0;
     }
     
-    .hero-content h1 {
+    .hero-content h2 {
         font-size: 2.5rem;
     }
     
@@ -796,7 +796,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .hero-content h1 {
+    .hero-content h2 {
         font-size: 2rem;
     }
     

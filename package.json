@@ -1,0 +1,51 @@
+{
+  "name": "oregon-deserves-better",
+  "version": "1.0.0",
+  "description": "A static website to inform voters about their representative's record and encourage civic engagement in Oregon's 2nd Congressional District",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "serve-node": "npx http-server -p 8000",
+    "lint-css": "stylelint styles.css",
+    "lint-html": "htmlhint index.html",
+    "lint-js": "eslint script.js",
+    "format": "prettier --write *.html *.css *.js *.md",
+    "build": "echo 'No build process needed - this is a static site'",
+    "deploy": "echo 'Deploy to your preferred static hosting service'"
+  },
+  "keywords": [
+    "oregon",
+    "politics",
+    "civic-engagement",
+    "voting",
+    "congress",
+    "static-website",
+    "primary-election"
+  ],
+  "author": "Oregon Deserves Better",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshooaj/byebyebentz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshooaj/byebyebentz/issues"
+  },
+  "homepage": "https://www.byebyebentz.com",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "htmlhint": "^1.1.4",
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

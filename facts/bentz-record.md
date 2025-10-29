@@ -249,6 +249,33 @@ For each fact added:
 - **Analysis**: Classic deflection - claiming DC focus as excuse for not addressing policies hurting Oregon families
 - **Impact**: Oregon families pay higher gas costs while their representative makes excuses
 
+## September 17, 2025 Town Hall - More Accountability Failures
+
+### Town Hall Avoidance Due to "Intimidation and Personal Safety"
+- **Date**: September 17, 2025
+- **Action**: Justified avoiding in-person town halls due to alleged safety concerns
+- **Exact Quote**: "This gives me an opportunity to speak without some of the challenges that go with live town hall meetings, one of which is a concern about intimidation and personal safety. In the past, I've generally had between five police officers present, and I think up on the ground we had 12 or 15."
+- **Source**: September 17, 2025 Town Hall transcript
+- **Analysis**: Uses "safety" as excuse to avoid direct constituent accountability; claims needing 5-15 police officers
+- **Pattern**: Avoids situations where constituents can directly challenge him
+- **Impact**: Reduces democratic accountability and constituent access
+
+### More Epstein Files Excuses and Attacks on Fellow Republican
+- **Date**: September 17, 2025
+- **Action**: Expanded his refusal to support Epstein transparency, attacked Rep. Massey's discharge petition
+- **Exact Quote**: "The discharge petition that Massey has suggested, which I do not support, is not crafted properly to protect the innocent... when Massey was drafting this petition, he should have exercised far more care"
+- **Source**: September 17, 2025 Town Hall transcript
+- **Analysis**: Doubled down on transparency refusal, attacked fellow Republican who wants transparency
+- **Pattern**: Consistently opposes transparency measures, even attacking conservatives who support them
+
+### Biden vs. Trump Administration Credit/Blame Game
+- **Date**: September 17, 2025
+- **Action**: Credits Trump administration for wolf killing but had worked with Biden administration on same wolf
+- **Exact Quote**: "We had been working with the Biden administration, U.S. Fish and Wildlife, to try to harass the wolf. And then the administration's changed, and two days afterwards, the wolf made the mistake of going too close to a bus stop with kids, and the next day the wolf was dead. And that was because the U.S. Fish, under the Trump administration, stepped up"
+- **Source**: September 17, 2025 Town Hall transcript  
+- **Analysis**: Takes credit for Trump actions but downplays his own work with Biden administration
+- **Pattern**: Partisan credit-taking rather than honest representation of his work
+
 ---
 
 ## Notes for Researchers

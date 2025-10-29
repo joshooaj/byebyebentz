@@ -44,20 +44,20 @@ body {
     font-size: 1.5rem;
 }
 
-.nav-menu {
+.nav-links {
     display: flex;
     list-style: none;
     gap: 2rem;
 }
 
-.nav-menu a {
+.nav-links a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-.nav-menu a:hover {
+.nav-links a:hover {
     color: #63b3ed;
 }
 
@@ -73,6 +73,18 @@ body {
     background-color: #fff;
     margin: 3px 0;
     transition: 0.3s;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 /* Hero Section */
@@ -664,6 +676,17 @@ footer {
     color: #a0aec0;
 }
 
+.footer-section p a {
+    color: #63b3ed;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-section p a:hover {
+    color: #90cdf4;
+    text-decoration: none;
+}
+
 .footer-section ul {
     list-style: none;
 }
@@ -696,7 +719,7 @@ footer {
         display: flex;
     }
     
-    .nav-menu {
+    .nav-links {
         position: fixed;
         left: -100%;
         top: 70px;
@@ -709,11 +732,11 @@ footer {
         padding: 2rem 0;
     }
     
-    .nav-menu.active {
+    .nav-links.active {
         left: 0;
     }
     
-    .nav-menu li {
+    .nav-links li {
         margin: 1rem 0;
     }
     

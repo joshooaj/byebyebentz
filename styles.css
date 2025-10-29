@@ -236,6 +236,32 @@ body {
     color: #c53030;
 }
 
+.sources {
+    background: #f0f8ff;
+    border: 1px solid #bee3f8;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.sources strong {
+    color: #2b6cb0;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.sources a {
+    color: #2b6cb0;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.sources a:hover {
+    color: #1a365d;
+    text-decoration: none;
+}
+
 /* Contradictions Section */
 .contradictions {
     padding: 80px 0;
@@ -534,6 +560,84 @@ body {
     transform: translateY(-2px);
 }
 
+/* Sources Section */
+.sources-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.sources-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2d3748;
+}
+
+.source-document {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    margin-bottom: 2rem;
+}
+
+.source-document h3 {
+    color: #2b6cb0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.document-highlights {
+    margin: 2rem 0;
+}
+
+.document-highlights h4 {
+    color: #4a5568;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.excerpt {
+    background: #f7fafc;
+    border-left: 4px solid #2b6cb0;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.excerpt strong {
+    color: #2b6cb0;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.excerpt p {
+    font-style: italic;
+    color: #4a5568;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.document-link {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.document-link a {
+    background: #2b6cb0;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.document-link a:hover {
+    background: #1a365d;
+}
+
 /* Footer */
 footer {
     background: #2d3748;
@@ -641,6 +745,14 @@ footer {
         margin-top: 0.5rem;
         align-self: flex-start;
     }
+    
+    .source-document {
+        padding: 1.5rem;
+    }
+    
+    .excerpt {
+        padding: 1rem;
+    }
 
     .record-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -687,6 +799,14 @@ footer {
     
     .quote {
         padding: 1rem;
+    }
+    
+    .source-document {
+        padding: 1rem;
+    }
+    
+    .sources-section h2 {
+        font-size: 2rem;
     }
     
     .primary-info {

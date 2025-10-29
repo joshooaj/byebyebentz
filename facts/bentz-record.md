@@ -38,6 +38,18 @@ This document serves as the authoritative source for all verifiable facts about 
 - **Impact**: Blocks accountability for trafficking victims
 - **Website Usage**: Featured in "Blocking Justice" section
 
+### Federal Overreach Support
+- **Date**: October 8, 2025
+- **Position**: Supports sending federal troops to Portland against state and local authority
+- **Quote**: "The president had little choice when it came to calling up the National Guard because local law enforcement is incapable of protecting the people that are trying to carry out the federal work of immigration and control"
+- **Source**: KGW interview - https://www.kgw.com/article/news/politics/rep-cliff-bentz-trump-justified-calling-national-guard-portland-government-shutdown/283-0041d80f-108f-4d96-8d49-a5ea877160bd
+- **Context**: Contradicts conservative principles of states' rights and local control
+- **Opposition**: Oregon Governor, Portland Mayor, and Portland Police all oppose federal intervention
+- **Conservative Problem**: Supporting federal military intervention against state authority violates core conservative values
+- **Rural Oregon Impact**: Sets precedent for federal overreach that could affect rural communities
+- **Editorial Criticism**: Lookout Eugene-Springfield criticized Bentz for prioritizing political points over defending Oregon's interests
+- **Website Usage**: Featured as "Federal Overreach Support" issue demonstrating abandonment of conservative principles
+
 ### Document Release Refusals
 - **TO BE DOCUMENTED**: Specific instances of refusing document releases
 - **TO BE DOCUMENTED**: FOIA responses and transparency record

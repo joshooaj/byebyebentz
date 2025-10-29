@@ -1,7 +1,7 @@
 ---
 title: Our View - It’s time for Cliff Bentz to defend Oregon
 publication: Lookout Eugene-Springfield
-source: https://www.kgw.com/article/news/politics/rep-cliff-bentz-trump-justified-calling-national-guard-portland-government-shutdown/283-0041d80f-108f-4d96-8d49-a5ea877160bd
+source: https://lookouteugene-springfield.com/story/editorials/2025/10/28/our-view-its-time-for-cliff-bentz-to-defend-oregon/
 style: editorial
 ---
 

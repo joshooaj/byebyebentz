@@ -236,6 +236,102 @@ body {
     color: #c53030;
 }
 
+/* Contradictions Section */
+.contradictions {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+}
+
+.contradictions h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #c53030;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4a5568;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contradiction-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.contradiction-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    border-left: 4px solid #e53e3e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contradiction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+}
+
+.contradiction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.contradiction-header h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #c53030;
+    margin: 0;
+    flex: 1;
+}
+
+.date {
+    background: #e53e3e;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+.quote {
+    background: #f7fafc;
+    border-left: 3px solid #e2e8f0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.quote p {
+    font-style: italic;
+    color: #2d3748;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.analysis {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.analysis strong {
+    color: #c53030;
+}
+
 /* Voting Record Section */
 .voting-record {
     padding: 80px 0;
@@ -263,6 +359,11 @@ body {
     border-radius: 12px;
     text-align: center;
     transition: all 0.3s ease;
+}
+
+.record-item.positive {
+    background: #f0fff4;
+    border: 2px solid #9ae6b4;
 }
 
 .record-item:hover {
@@ -525,6 +626,22 @@ footer {
         grid-template-columns: 1fr;
     }
     
+    .contradiction-cards {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .contradiction-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .date {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        align-self: flex-start;
+    }
+
     .record-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
@@ -557,9 +674,19 @@ footer {
     }
     
     .issue-card,
+    .contradiction-card,
     .solution,
     .action-card {
         padding: 1.5rem;
+    }
+    
+    .contradiction-cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .quote {
+        padding: 1rem;
     }
     
     .primary-info {

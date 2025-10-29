@@ -86,11 +86,11 @@ const statsObserver = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             const statNumbers = entry.target.querySelectorAll('.stat-number');
             statNumbers.forEach((stat, index) => {
-                const targets = [2, 0, 100]; // Corresponding to the stats
+                const targets = [2, 50, 100]; // Corresponding to: 2 Bills, 50% PAC funding, 100% Time for change
                 if (index < targets.length) {
                     setTimeout(() => {
-                        if (targets[index] === 0) {
-                            stat.textContent = '0';
+                        if (targets[index] === 50) {
+                            stat.textContent = '50%';
                         } else if (targets[index] === 100) {
                             stat.textContent = '100%';
                         } else {

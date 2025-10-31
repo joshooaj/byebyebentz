@@ -19,6 +19,17 @@ This document serves as the authoritative source for all verifiable facts about 
 - **TO BE DOCUMENTED**: Positions on telehealth expansion
 - **TO BE DOCUMENTED**: Stance on physician shortage programs
 
+### Rural Healthcare Crisis (2023-2025)
+- **Baker City Hospital Closure**: Saint Alphonsus Medical Center closed labor and delivery unit in August 2023
+- **Life-Threatening Consequences**: Mother gave birth on highway in April 2024, baby nearly died from fluid in lungs
+- **Source**: KOIN investigation, September 23, 2025 - https://www.koin.com/news/rural-hospitals-in-oregon-struggled-to-maintain-maternity-care-even-before-medicaid-cuts/
+- **Committee Position**: Bentz sits on House Energy & Commerce Health subcommittee responsible for addressing rural healthcare
+- **Medicaid Cuts**: Big Beautiful Bill will cut $11 billion from Oregon Health Plan through 2031
+- **More Closures Coming**: Providence Seaside eliminated maternity care October 2025; more hospitals at risk
+- **Rural Impact**: Dangerous highway births, families forced to relocate for childbirth, higher maternal mortality
+- **Bentz's Response**: No meaningful action despite sitting on the committee that oversees rural healthcare policy
+- **Website Usage**: Demonstrates life-threatening failure while holding relevant committee position
+
 ## Transparency & Accountability
 
 ### January 6th Coup Attempt Participation

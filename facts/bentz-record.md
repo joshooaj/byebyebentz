@@ -120,6 +120,18 @@ This document serves as the authoritative source for all verifiable facts about 
 - **TO BE DOCUMENTED**: Votes on small business relief packages
 - **TO BE DOCUMENTED**: Positions on rural economic development
 
+### Taxpayer Money Waste (2025)
+- **Inauguration Spending Scandal**: Spent more than any House member on Trump inauguration weekend
+- **Total Amount**: $20,717 in federal tax dollars (January 17-22, 2025)
+- **Comparison**: 6x more than average House office ($2,546 average)
+- **Hotel Costs**: $16,289 for just 3 nights of lodging
+- **Luxury Pattern**: Chief of staff regularly stays in $700/night hotels on taxpayer dime
+- **Hypocrisy**: One month later lectured CNN about "fiscal responsibility" and cutting government spending
+- **Source**: La Grande Observer, August 7, 2025 - Congressional spending records analysis
+- **Democratic Comparison**: Oregon Dems spent $264-$755 each during same period
+- **Rural Oregon Impact**: Wastes federal dollars on luxury while rural hospitals close
+- **Website Usage**: Shows fiscal hypocrisy - preaches cuts while living large on taxpayer dime
+
 ### Agricultural Policies
 - **TO BE DOCUMENTED**: Votes affecting farmers and ranchers
 - **TO BE DOCUMENTED**: Water rights positions

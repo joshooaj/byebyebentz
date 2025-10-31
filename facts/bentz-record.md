@@ -94,7 +94,7 @@ This document serves as the authoritative source for all verifiable facts about 
 
 ### Top Donors and Industry Influence
 - **Top Industry Donors 2023-2024**: Livestock ($59,100), Forestry & Forest Products ($56,190), Oil & Gas ($47,600), Casinos/Gambling ($44,900)
-- **PAC Money**: $566,552 (50.05% of total fundraising)
+- **PAC Money**: $562,409 (51.45% of total fundraising)
 - **Source**: OpenSecrets.org - 2023-2024 cycle data
 - **Context**: Heavy dependence on industry PAC money from sectors he regulates
 - **Rural Oregon Impact**: Represents corporate interests over rural families
@@ -113,6 +113,16 @@ This document serves as the authoritative source for all verifiable facts about 
 - **TO BE DOCUMENTED**: Votes affecting farmers and ranchers
 - **TO BE DOCUMENTED**: Water rights positions
 - **TO BE DOCUMENTED**: Agricultural subsidy votes
+
+### Rural Economic Crisis (2025)
+- **Grant County Collapse**: Both sawmills shut down, 9 hospital workers laid off (Sept 17, 2025 town hall)
+- **Source**: September 17, 2025 town hall transcript - constituent from Grant County
+- **Context**: "We have two sawmills in the area, and both of them are down right now, which means there's no place for the loggers to bring their logs to have them sawn, and that really affects the economy here... They laid off nine people today"
+- **Rural Oregon Impact**: Demonstrates widespread economic collapse while Bentz offers no meaningful action
+- **Mining Opportunities Stalled**: Mentions 16-square-mile lithium deposit and uranium opportunities but no progress on development
+- **Power Grid Crisis**: Admits Oregon "incredibly close to moving into having rolling blackouts" due to inadequate power generation
+- **Solar Energy Hypocrisy**: Takes credit for creating solar tax structures in legislature, then supports cutting federal solar tax credits
+- **Website Usage**: Shows economic failure while Bentz focuses on political games instead of rural needs
 
 ## Constituent Engagement & Town Hall Record
 
